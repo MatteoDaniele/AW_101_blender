@@ -1,0 +1,1499 @@
+<?xml version="1.0" ?>  
+<PropertyList> 
+	<author>Matteo Daniele</author>  
+	<path>AW_101_temp.ac</path> 
+	<!-- 
+  
+	*********************************************************** 
+	***********************************************************  
+		Part of this file was generating by a blender script  
+ 
+		Script fg2blender v0.1 alpha  (c)paf 
+		download: http://gitorious.org/paf/fg2blender  
+		contacts: http://equipe-flightgear.forumactif.com 
+		doc:      http://wiki.flightgear.org/Fr/fg2blender  
+	***********************************************************  
+	***********************************************************  
+ 
+	-->  
+	<!--Armature-->  
+	<animation>  
+		<type>translate</type> 
+		<object-name>door left</object-name>  
+		<property>AW_101/doors/port_door</property>  
+		<factor>1.000000</factor> 
+		<center> 
+			<x-m>-2.3812</x-m>  
+			<y-m>-8.6301</y-m> 
+			<z-m>2.4299</z-m>  
+		</center>  
+		<axis> 
+			<x>-1.5000</x> 
+			<y>0.0000</y> 
+			<z>0.0000</z> 
+		</axis>  
+		<interpolation>  
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>0.0000</dep> 
+			</entry>  
+			<entry>  
+				<ind>1</ind> 
+				<dep>-1.0890</dep> 
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--port door--> 
+	<animation>  
+		<type>translate</type> 
+		<object-name>door left</object-name>  
+		<property>AW_101/doors/port_door</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>-2.3812</x-m>  
+			<y-m>-8.5805</y-m>  
+			<z-m>2.4299</z-m> 
+		</center>  
+		<axis>  
+			<x>0.0000</x>  
+			<y>-1.5000</y> 
+			<z>0.0000</z> 
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>0.0000</ind>  
+				<dep>0.0000</dep>  
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>0.0496</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--back door open-->  
+	<animation> 
+		<type>rotate</type>  
+		<object-name>fuselage external backdoor</object-name> 
+		<property>AW_101/doors/back_door</property> 
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>5.4238</x-m> 
+			<y-m>7.0213</y-m> 
+			<z-m>0.9221</z-m> 
+		</center> 
+		<axis>  
+			<x>0.0000</x>  
+			<y>1.5000</y>  
+			<z>0.0000</z> 
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>0.0000</ind> 
+				<dep>-0.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1</ind> 
+				<dep>42.0000</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--copilot_collective_pitch_control-->  
+	<animation>  
+		<type>rotate</type>  
+		<object-name>control collective copilot</object-name> 
+		<property>AW_101/rotors/main/collective_pitch</property> 
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>-4.4768</x-m>  
+			<y-m>-1.5358</y-m> 
+			<z-m>1.7920</z-m>  
+		</center> 
+		<axis> 
+			<x>0.0000</x>  
+			<y>0.1000</y>  
+			<z>0.0000</z>  
+		</axis>  
+		<interpolation> 
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>-20.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>20.0000</dep> 
+			</entry> 
+		</interpolation>  
+	</animation> 
+	<!--copilot_lateral_cyclic_control-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>control cyclic copilot</object-name> 
+		<property>surface-positions/right-aileron-pos-norm</property>  
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>-5.0573</x-m>  
+			<y-m>-0.8711</y-m>  
+			<z-m>1.5347</z-m> 
+		</center>  
+		<axis>  
+			<x>0.1000</x>  
+			<y>0.0000</y> 
+			<z>0.0000</z>  
+		</axis>  
+		<interpolation> 
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>-20.0000</dep> 
+			</entry>  
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>20.0000</dep> 
+			</entry> 
+		</interpolation> 
+	</animation>  
+	<!--copilot_longitudinal_cyclic_control-->  
+	<animation>  
+		<type>rotate</type>  
+		<object-name>control cyclic copilot</object-name> 
+		<property>surface-positions/elevator-pos-norm</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>-5.0573</x-m> 
+			<y-m>-0.8711</y-m>  
+			<z-m>1.5347</z-m>  
+		</center> 
+		<axis> 
+			<x>0.0000</x>  
+			<y>0.1000</y> 
+			<z>0.0000</z>  
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>0.0000</dep>  
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>-30.0000</dep>  
+			</entry> 
+		</interpolation> 
+	</animation>  
+	<!--copilot_left_pedal_control--> 
+	<animation>  
+		<type>translate</type>  
+		<object-name>control pedal copilot left arm</object-name>  
+		<object-name>control pedal copilot left</object-name> 
+		<property>surface-positions/rudder-pos-norm</property>  
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>-5.2994</x-m> 
+			<y-m>-0.9528</y-m>  
+			<z-m>1.5305</z-m>  
+		</center>  
+		<axis> 
+			<x>0.1000</x>  
+			<y>0.0000</y> 
+			<z>0.0000</z> 
+		</axis>  
+		<interpolation> 
+			<entry> 
+				<ind>-1.0000</ind> 
+				<dep>0.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>-0.2500</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--copilot_left_brake_control--> 
+	<animation> 
+		<type>rotate</type>  
+		<object-name>control pedal copilot left</object-name>  
+		<property>controls/gear/brake-left</property> 
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>-5.2992</x-m> 
+			<y-m>-1.3533</y-m>  
+			<z-m>1.6572</z-m>  
+		</center>  
+		<axis>  
+			<x>0.0000</x>  
+			<y>0.1000</y> 
+			<z>0.0000</z> 
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>-0.0000</dep>  
+			</entry> 
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>-20.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--copilot_right_pedal_control--> 
+	<animation>  
+		<type>translate</type>  
+		<object-name>control pedal copilot right arm</object-name>  
+		<object-name>control pedal copilot right</object-name> 
+		<property>surface-positions/rudder-pos-norm</property>  
+		<factor>1.000000</factor> 
+		<center> 
+			<x-m>-5.5508</x-m>  
+			<y-m>-0.7910</y-m> 
+			<z-m>1.5293</z-m>  
+		</center>  
+		<axis> 
+			<x>0.1000</x> 
+			<y>0.0000</y>  
+			<z>0.0000</z> 
+		</axis>  
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>0.0000</dep>  
+			</entry>  
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>0.2500</dep>  
+			</entry>  
+		</interpolation> 
+	</animation> 
+	<!--copilot_right_brake_control-->  
+	<animation> 
+		<type>rotate</type>  
+		<object-name>control pedal copilot right</object-name>  
+		<property>controls/gear/brake-right</property> 
+		<factor>1.000000</factor> 
+		<center> 
+			<x-m>-5.5506</x-m> 
+			<y-m>-0.5486</y-m>  
+			<z-m>1.6560</z-m>  
+		</center>  
+		<axis>  
+			<x>0.0000</x> 
+			<y>0.1000</y>  
+			<z>0.0000</z>  
+		</axis> 
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>0.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>-20.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--front landing gear-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>landing gear leg forward</object-name>  
+		<property>gear/gear[1]/position-norm</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>-5.2438</x-m> 
+			<y-m>-6.9598</y-m>  
+			<z-m>0.9838</z-m> 
+		</center>  
+		<axis>  
+			<x>0.0000</x>  
+			<y>-1.5000</y> 
+			<z>0.0000</z>  
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>0.0000</ind>  
+				<dep>-0.0000</dep>  
+			</entry>  
+			<entry>  
+				<ind>1.0000</ind> 
+				<dep>100.0000</dep> 
+			</entry> 
+		</interpolation> 
+	</animation> 
+	<!--main landing gear-->  
+	<animation>  
+		<type>rotate</type>  
+		<object-name>landing gear main leg left</object-name> 
+		<object-name>landing gear main leg right</object-name>  
+		<property>gear/gear[2]/position-norm</property>  
+		<factor>1.000000</factor> 
+		<center> 
+			<x-m>3.4820</x-m>  
+			<y-m>-7.0028</y-m>  
+			<z-m>1.1560</z-m> 
+		</center> 
+		<axis>  
+			<x>0.0000</x> 
+			<y>-1.5000</y>  
+			<z>0.0000</z>  
+		</axis>  
+		<interpolation>  
+			<entry>  
+				<ind>0.0000</ind> 
+				<dep>-0.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.0000</ind>  
+				<dep>-80.0000</dep> 
+			</entry>  
+		</interpolation> 
+	</animation> 
+	<!--main rotor shaft rotation-->  
+	<animation>  
+		<type>rotate</type>  
+		<object-name>main rotor blade 1 tip</object-name>  
+		<object-name>main rotor blade 1 half</object-name> 
+		<object-name>main rotor blade 1 root</object-name> 
+		<object-name>main rotor blade 1 pitch link</object-name>  
+		<object-name>main rotor blade 2 root</object-name>  
+		<object-name>main rotor blade 2 half</object-name>  
+		<object-name>main rotor blade 2 tip</object-name> 
+		<object-name>main rotor blade 2 pitch link</object-name>  
+		<object-name>main rotor blade 3 tip</object-name> 
+		<object-name>main rotor blade 3 half</object-name> 
+		<object-name>main rotor blade 3 root</object-name>  
+		<object-name>main rotor blade 3 pitch link</object-name> 
+		<object-name>main rotor blade 4 tip</object-name>  
+		<object-name>main rotor blade 4 half</object-name>  
+		<object-name>main rotor blade 4 root</object-name> 
+		<object-name>main rotor blade 4 pitch link</object-name> 
+		<object-name>main rotor blade 5 tip</object-name>  
+		<object-name>main rotor blade 5 half</object-name> 
+		<object-name>main rotor blade 5 root</object-name>  
+		<object-name>main rotor blade 5 pitch link</object-name>  
+		<object-name>main rotor damper 1</object-name>  
+		<object-name>main rotor head 8</object-name> 
+		<object-name>main rotor damper 2</object-name>  
+		<object-name>main rotor damper 3</object-name>  
+		<object-name>main rotor damper 4</object-name>  
+		<object-name>main rotor damper 5</object-name> 
+		<object-name>main rotor head 4</object-name>  
+		<object-name>main rotor head 5</object-name>  
+		<object-name>main rotor head 6</object-name> 
+		<object-name>main rotor head 7</object-name> 
+		<object-name>main rotor head hub</object-name>  
+		<object-name>main rotor shaft</object-name> 
+		<property>AW_101/rotors/main/rpm</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>0.6815</x-m> 
+			<y-m>0.0304</y-m> 
+			<z-m>7.3126</z-m> 
+		</center>  
+		<axis>  
+			<x>-0.0852</x>  
+			<y>-0.0000</y>  
+			<z>1.4976</z> 
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>0.0000</ind> 
+				<dep>0.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1</ind> 
+				<dep>360.0000</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 1 pitch-->  
+	<animation> 
+		<type>rotate</type>  
+		<object-name>main rotor blade 1 tip</object-name>  
+		<object-name>main rotor blade 1 half</object-name> 
+		<object-name>main rotor blade 1 root</object-name>  
+		<property>AW_101/rotors/main/blade[0]/pitch</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>1.5193</x-m> 
+			<y-m>0.0308</y-m>  
+			<z-m>5.9138</z-m> 
+		</center>  
+		<axis>  
+			<x>1.1859</x>  
+			<y>-0.0175</y> 
+			<z>-0.0108</z>  
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>18.0000</dep> 
+			</entry> 
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 1 flap root--> 
+	<animation> 
+		<type>rotate</type> 
+		<object-name>main rotor blade 1 tip</object-name> 
+		<object-name>main rotor blade 1 half</object-name>  
+		<object-name>main rotor blade 1 root</object-name>  
+		<property>AW_101/rotors/main/blade[0]/flap_angle</property>  
+		<factor>0.300000</factor> 
+		<center>  
+			<x-m>1.5193</x-m>  
+			<y-m>0.0308</y-m> 
+			<z-m>5.9138</z-m> 
+		</center>  
+		<axis>  
+			<x>-0.0001</x> 
+			<y>-0.1494</y> 
+			<z>-0.0131</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-10.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1.000</ind> 
+				<dep>10.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 1 flap half-->  
+	<animation> 
+		<type>rotate</type> 
+		<object-name>main rotor blade 1 tip</object-name>  
+		<object-name>main rotor blade 1 half</object-name>  
+		<property>AW_101/rotors/main/blade[0]/flap_angle</property>  
+		<factor>0.600000</factor>  
+		<center> 
+			<x-m>6.2401</x-m> 
+			<y-m>0.1297</y-m>  
+			<z-m>6.1072</z-m>  
+		</center>  
+		<axis> 
+			<x>-0.0313</x>  
+			<y>-0.7392</y> 
+			<z>-0.0256</z> 
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>5.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 1 flap tip-->  
+	<animation>  
+		<type>rotate</type>  
+		<object-name>main rotor blade 1 tip</object-name> 
+		<property>AW_101/rotors/main/blade[0]/flap_angle</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>8.5176</x-m> 
+			<y-m>0.0241</y-m>  
+			<z-m>6.2084</z-m> 
+		</center>  
+		<axis>  
+			<x>-0.0307</x> 
+			<y>-0.7393</y> 
+			<z>-0.0315</z> 
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-3.0000</dep>  
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>3.0000</dep> 
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 1 pitch link armature--> 
+	<animation> 
+		<type>translate</type>  
+		<object-name>main rotor blade 1 pitch link</object-name> 
+		<property>AW_101/rotors/main/blade[0]/pitch</property>  
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>1.4181</x-m> 
+			<y-m>-0.0892</y-m>  
+			<z-m>5.0267</z-m>  
+		</center> 
+		<axis>  
+			<x>-0.0227</x>  
+			<y>-0.0000</y>  
+			<z>0.3994</z> 
+		</axis> 
+		<interpolation>  
+			<entry> 
+				<ind>0.0000</ind>  
+				<dep>0.0560</dep>  
+			</entry>  
+			<entry> 
+				<ind>1</ind>  
+				<dep>-0.2080</dep>  
+			</entry>  
+		</interpolation> 
+	</animation>  
+	<!--main rotor blade 2 pitch-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 2 root</object-name>  
+		<object-name>main rotor blade 2 half</object-name> 
+		<object-name>main rotor blade 2 tip</object-name> 
+		<property>AW_101/rotors/main/blade[1]/pitch</property>  
+		<factor>1.000000</factor> 
+		<center> 
+			<x-m>0.9971</x-m> 
+			<y-m>0.7506</y-m> 
+			<z-m>5.8841</z-m> 
+		</center>  
+		<axis>  
+			<x>0.3858</x>  
+			<y>1.1209</y> 
+			<z>-0.0493</z>  
+		</axis>  
+		<interpolation> 
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep>  
+			</entry> 
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>18.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 2 flap root-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 2 root</object-name> 
+		<object-name>main rotor blade 2 half</object-name> 
+		<object-name>main rotor blade 2 tip</object-name>  
+		<property>AW_101/rotors/main/blade[1]/flap_angle</property>  
+		<factor>0.300000</factor> 
+		<center>  
+			<x-m>0.9971</x-m> 
+			<y-m>0.7506</y-m> 
+			<z-m>5.8841</z-m>  
+		</center>  
+		<axis>  
+			<x>0.1424</x>  
+			<y>-0.0469</y> 
+			<z>-0.0050</z> 
+		</axis>  
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>-10.0000</dep>  
+			</entry> 
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>10.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 2 flap half--> 
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 2 half</object-name>  
+		<object-name>main rotor blade 2 tip</object-name>  
+		<property>AW_101/rotors/main/blade[1]/flap_angle</property>  
+		<factor>0.600000</factor> 
+		<center>  
+			<x-m>2.3488</x-m>  
+			<y-m>5.2792</y-m>  
+			<z-m>5.9033</z-m> 
+		</center>  
+		<axis>  
+			<x>0.6943</x> 
+			<y>-0.2563</y> 
+			<z>-0.0184</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>-5.0000</dep> 
+			</entry> 
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>5.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 2 flap tip-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 2 tip</object-name> 
+		<property>AW_101/rotors/main/blade[1]/flap_angle</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>3.1447</x-m> 
+			<y-m>7.4181</y-m>  
+			<z-m>5.9185</z-m> 
+		</center>  
+		<axis>  
+			<x>0.6945</x>  
+			<y>-0.2560</y> 
+			<z>-0.0243</z>  
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-3.0000</dep>  
+			</entry> 
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>3.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 2 pitch link armature--> 
+	<animation>  
+		<type>translate</type>  
+		<object-name>main rotor blade 2 pitch link</object-name>  
+		<property>AW_101/rotors/main/blade[1]/pitch</property> 
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>1.1143</x-m>  
+			<y-m>0.5696</y-m> 
+			<z-m>5.0094</z-m>  
+		</center> 
+		<axis> 
+			<x>-0.0227</x>  
+			<y>0.0000</y> 
+			<z>0.3994</z> 
+		</axis> 
+		<interpolation> 
+			<entry> 
+				<ind>0.0000</ind>  
+				<dep>0.0560</dep>  
+			</entry>  
+			<entry> 
+				<ind>1</ind>  
+				<dep>-0.2080</dep>  
+			</entry> 
+		</interpolation> 
+	</animation>  
+	<!--main rotor blade 3 pitch-->  
+	<animation> 
+		<type>rotate</type> 
+		<object-name>main rotor blade 3 tip</object-name>  
+		<object-name>main rotor blade 3 half</object-name> 
+		<object-name>main rotor blade 3 root</object-name>  
+		<property>AW_101/rotors/main/blade[2]/pitch</property>  
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>0.1523</x-m>  
+			<y-m>0.4757</y-m> 
+			<z-m>5.8361</z-m> 
+		</center> 
+		<axis>  
+			<x>-0.9401</x>  
+			<y>0.7099</y> 
+			<z>-0.1412</z>  
+		</axis> 
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1.000</ind> 
+				<dep>18.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 3 flap root-->  
+	<animation> 
+		<type>rotate</type> 
+		<object-name>main rotor blade 3 tip</object-name>  
+		<object-name>main rotor blade 3 half</object-name> 
+		<object-name>main rotor blade 3 root</object-name>  
+		<property>AW_101/rotors/main/blade[2]/flap_angle</property>  
+		<factor>0.300000</factor> 
+		<center> 
+			<x-m>0.1523</x-m>  
+			<y-m>0.4757</y-m> 
+			<z-m>5.8361</z-m>  
+		</center>  
+		<axis>  
+			<x>0.0892</x> 
+			<y>0.1203</y>  
+			<z>-0.0080</z>  
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-10.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>10.0000</dep>  
+			</entry>  
+		</interpolation> 
+	</animation> 
+	<!--main rotor blade 3 flap half--> 
+	<animation> 
+		<type>rotate</type>  
+		<object-name>main rotor blade 3 tip</object-name>  
+		<object-name>main rotor blade 3 half</object-name>  
+		<property>AW_101/rotors/main/blade[2]/flap_angle</property>  
+		<factor>0.600000</factor> 
+		<center>  
+			<x-m>-3.7240</x-m>  
+			<y-m>3.1609</y-m> 
+			<z-m>5.5202</z-m> 
+		</center>  
+		<axis>  
+			<x>0.4563</x> 
+			<y>0.5813</y> 
+			<z>0.0449</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep> 
+			</entry>  
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>5.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 3 flap tip--> 
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 3 tip</object-name>  
+		<property>AW_101/rotors/main/blade[2]/flap_angle</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>-5.5082</x-m>  
+			<y-m>4.5784</y-m>  
+			<z-m>5.3942</z-m>  
+		</center> 
+		<axis>  
+			<x>0.4567</x>  
+			<y>0.5817</y>  
+			<z>0.0390</z> 
+		</axis>  
+		<interpolation> 
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>-3.0000</dep> 
+			</entry> 
+			<entry> 
+				<ind>1.000</ind> 
+				<dep>3.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 3 pitch link armature--> 
+	<animation>  
+		<type>translate</type>  
+		<object-name>main rotor blade 3 pitch link</object-name> 
+		<property>AW_101/rotors/main/blade[2]/pitch</property> 
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>0.3949</x-m> 
+			<y-m>0.4838</y-m> 
+			<z-m>4.9685</z-m>  
+		</center> 
+		<axis>  
+			<x>-0.0227</x>  
+			<y>0.0000</y>  
+			<z>0.3994</z>  
+		</axis>  
+		<interpolation> 
+			<entry> 
+				<ind>0.0000</ind> 
+				<dep>0.0560</dep>  
+			</entry>  
+			<entry> 
+				<ind>1</ind>  
+				<dep>-0.2080</dep> 
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 4 pitch-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 4 tip</object-name> 
+		<object-name>main rotor blade 4 half</object-name>  
+		<object-name>main rotor blade 4 root</object-name>  
+		<property>AW_101/rotors/main/blade[3]/pitch</property>  
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>0.1523</x-m> 
+			<y-m>-0.4141</y-m> 
+			<z-m>5.8361</z-m>  
+		</center> 
+		<axis>  
+			<x>-0.9611</x>  
+			<y>-0.6809</y> 
+			<z>-0.1424</z> 
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep>  
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>18.0000</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 4 flap root--> 
+	<animation> 
+		<type>rotate</type>  
+		<object-name>main rotor blade 4 tip</object-name> 
+		<object-name>main rotor blade 4 half</object-name>  
+		<object-name>main rotor blade 4 root</object-name>  
+		<property>AW_101/rotors/main/blade[3]/flap_angle</property> 
+		<factor>0.300000</factor> 
+		<center> 
+			<x-m>0.1523</x-m> 
+			<y-m>-0.4141</y-m>  
+			<z-m>5.8361</z-m>  
+		</center>  
+		<axis>  
+			<x>-0.0880</x> 
+			<y>0.1213</y>  
+			<z>-0.0050</z>  
+		</axis> 
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-10.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>10.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--main rotor blade 4 flap half-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 4 tip</object-name>  
+		<object-name>main rotor blade 4 half</object-name>  
+		<property>AW_101/rotors/main/blade[3]/flap_angle</property>  
+		<factor>0.600000</factor> 
+		<center> 
+			<x-m>-3.5772</x-m>  
+			<y-m>-3.2987</y-m> 
+			<z-m>5.5116</z-m>  
+		</center>  
+		<axis>  
+			<x>-0.4167</x> 
+			<y>0.6090</y>  
+			<z>0.0596</z>  
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep>  
+			</entry> 
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>5.0000</dep> 
+			</entry>  
+		</interpolation> 
+	</animation> 
+	<!--main rotor blade 4 flap tip--> 
+	<animation> 
+		<type>rotate</type> 
+		<object-name>main rotor blade 4 tip</object-name>  
+		<property>AW_101/rotors/main/blade[3]/flap_angle</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>-5.4667</x-m>  
+			<y-m>-4.5723</y-m>  
+			<z-m>5.3843</z-m> 
+		</center> 
+		<axis>  
+			<x>-0.4171</x>  
+			<y>0.6096</y> 
+			<z>0.0537</z> 
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-3.0000</dep>  
+			</entry>  
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>3.0000</dep> 
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 4 pitch link armature--> 
+	<animation>  
+		<type>translate</type> 
+		<object-name>main rotor blade 4 pitch link</object-name> 
+		<property>AW_101/rotors/main/blade[3]/pitch</property>  
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>0.2541</x-m>  
+			<y-m>-0.2280</y-m> 
+			<z-m>4.9605</z-m> 
+		</center>  
+		<axis>  
+			<x>-0.0227</x>  
+			<y>-0.0000</y> 
+			<z>0.3994</z>  
+		</axis> 
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>0.0560</dep>  
+			</entry>  
+			<entry> 
+				<ind>1.000</ind> 
+				<dep>-0.2080</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 5 pitch-->  
+	<animation> 
+		<type>rotate</type>  
+		<object-name>main rotor blade 5 tip</object-name>  
+		<object-name>main rotor blade 5 half</object-name>  
+		<object-name>main rotor blade 5 root</object-name> 
+		<property>AW_101/rotors/main/blade[4]/pitch</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>0.9971</x-m> 
+			<y-m>-0.6890</y-m>  
+			<z-m>5.8841</z-m> 
+		</center>  
+		<axis>  
+			<x>0.3522</x> 
+			<y>-1.1321</y> 
+			<z>-0.0454</z> 
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep>  
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>18.0000</dep> 
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 5 flap root--> 
+	<animation> 
+		<type>rotate</type>  
+		<object-name>main rotor blade 5 tip</object-name> 
+		<object-name>main rotor blade 5 half</object-name>  
+		<object-name>main rotor blade 5 root</object-name>  
+		<property>AW_101/rotors/main/blade[4]/flap_angle</property>  
+		<factor>0.300000</factor> 
+		<center>  
+			<x-m>0.9971</x-m>  
+			<y-m>-0.6890</y-m> 
+			<z-m>5.8841</z-m>  
+		</center>  
+		<axis>  
+			<x>-0.1424</x> 
+			<y>-0.0464</y> 
+			<z>-0.0081</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-10.0000</dep> 
+			</entry>  
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>10.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 5 flap half--> 
+	<animation>  
+		<type>rotate</type> 
+		<object-name>main rotor blade 5 tip</object-name> 
+		<object-name>main rotor blade 5 half</object-name>  
+		<property>AW_101/rotors/main/blade[4]/flap_angle</property> 
+		<factor>0.600000</factor> 
+		<center> 
+			<x-m>2.5836</x-m> 
+			<y-m>-5.1403</y-m> 
+			<z-m>5.9482</z-m>  
+		</center>  
+		<axis>  
+			<x>-0.7111</x> 
+			<y>-0.2031</y>  
+			<z>0.0349</z>  
+		</axis> 
+		<interpolation> 
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-5.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>5.0000</dep>  
+			</entry>  
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 5 flap tip-->  
+	<animation> 
+		<type>rotate</type> 
+		<object-name>main rotor blade 5 tip</object-name> 
+		<property>AW_101/rotors/main/blade[4]/flap_angle</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>3.2072</x-m>  
+			<y-m>-7.3350</y-m> 
+			<z-m>6.0032</z-m> 
+		</center>  
+		<axis>  
+			<x>-0.7114</x>  
+			<y>-0.2036</y>  
+			<z>0.0290</z> 
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-3.0000</dep> 
+			</entry>  
+			<entry> 
+				<ind>1.000</ind> 
+				<dep>3.0000</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--main rotor blade 5 pitch link armature--> 
+	<animation> 
+		<type>translate</type>  
+		<object-name>main rotor blade 5 pitch link</object-name> 
+		<property>AW_101/rotors/main/blade[4]/pitch</property>  
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>0.8864</x-m> 
+			<y-m>-0.5821</y-m>  
+			<z-m>4.9964</z-m>  
+		</center>  
+		<axis> 
+			<x>-0.0227</x>  
+			<y>0.0000</y>  
+			<z>0.3994</z> 
+		</axis> 
+		<interpolation>  
+			<entry> 
+				<ind>0.0000</ind>  
+				<dep>0.0560</dep>  
+			</entry> 
+			<entry> 
+				<ind>1</ind> 
+				<dep>-0.2080</dep> 
+			</entry>  
+		</interpolation>  
+	</animation>  
+	<!--pilot_collective_pitch_control-->  
+	<animation> 
+		<type>rotate</type>  
+		<object-name>control collective pilot</object-name>  
+		<property>AW_101/rotors/main/collective_pitch</property> 
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>-4.4768</x-m>  
+			<y-m>1.2977</y-m> 
+			<z-m>1.7920</z-m> 
+		</center>  
+		<axis> 
+			<x>0.0000</x>  
+			<y>0.1000</y>  
+			<z>0.0000</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>-20.0000</dep>  
+			</entry>  
+			<entry>  
+				<ind>1.000</ind> 
+				<dep>20.0000</dep> 
+			</entry>  
+		</interpolation> 
+	</animation>  
+	<!--pilot_lateral_cyclic_control-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>control cyclic pilot</object-name>  
+		<property>surface-positions/right-aileron-pos-norm</property>  
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>-5.1073</x-m>  
+			<y-m>0.9357</y-m>  
+			<z-m>1.5347</z-m>  
+		</center> 
+		<axis>  
+			<x>0.1000</x> 
+			<y>0.0000</y> 
+			<z>0.0000</z>  
+		</axis> 
+		<interpolation> 
+			<entry> 
+				<ind>-1.0000</ind> 
+				<dep>-20.0000</dep> 
+			</entry>  
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>20.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--pilot_longitudinal_cyclic_control--> 
+	<animation>  
+		<type>rotate</type>  
+		<object-name>control cyclic pilot</object-name> 
+		<property>surface-positions/elevator-pos-norm</property> 
+		<factor>1.000000</factor>  
+		<center> 
+			<x-m>-5.1073</x-m>  
+			<y-m>0.9357</y-m>  
+			<z-m>1.5347</z-m>  
+		</center>  
+		<axis>  
+			<x>0.0000</x> 
+			<y>0.1000</y> 
+			<z>0.0000</z> 
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>-0.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>-30.0000</dep>  
+			</entry>  
+		</interpolation> 
+	</animation> 
+	<!--pilot_left_pedal_control-->  
+	<animation>  
+		<type>translate</type>  
+		<object-name>control pedal pilot left arm</object-name> 
+		<object-name>control pedal pilot left</object-name>  
+		<property>surface-positions/rudder-pos-norm</property> 
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>-5.3994</x-m> 
+			<y-m>0.8540</y-m>  
+			<z-m>1.5305</z-m>  
+		</center> 
+		<axis> 
+			<x>0.1000</x>  
+			<y>0.0000</y> 
+			<z>0.0000</z>  
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>-1.0000</ind>  
+				<dep>0.1000</dep>  
+			</entry>  
+			<entry> 
+				<ind>-1.000</ind>  
+				<dep>-0.1500</dep>  
+			</entry> 
+		</interpolation> 
+	</animation>  
+	<!--pilot_left_brake_control--> 
+	<animation>  
+		<type>rotate</type>  
+		<object-name>control pedal pilot left</object-name> 
+		<property>controls/gear/brake-left</property> 
+		<factor>1.000000</factor> 
+		<center> 
+			<x-m>-5.3992</x-m>  
+			<y-m>0.5335</y-m>  
+			<z-m>1.6572</z-m>  
+		</center>  
+		<axis> 
+			<x>0.0000</x>  
+			<y>0.1000</y>  
+			<z>0.0000</z> 
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>-0.0000</dep> 
+			</entry>  
+			<entry> 
+				<ind>-1.000</ind>  
+				<dep>-20.0000</dep>  
+			</entry>  
+		</interpolation> 
+	</animation>  
+	<!--pilot_right_pedal_control-->  
+	<animation> 
+		<type>translate</type>  
+		<object-name>control pedal pilot right arm</object-name>  
+		<object-name>control pedal pilot right</object-name>  
+		<property>surface-positions/rudder-pos-norm</property> 
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>-5.4008</x-m> 
+			<y-m>1.0157</y-m>  
+			<z-m>1.5293</z-m>  
+		</center>  
+		<axis> 
+			<x>0.1000</x>  
+			<y>0.0000</y>  
+			<z>0.0000</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-0.1500</dep> 
+			</entry>  
+			<entry> 
+				<ind>-1.000</ind> 
+				<dep>0.1000</dep>  
+			</entry> 
+		</interpolation> 
+	</animation> 
+	<!--pilot_right_brake_control--> 
+	<animation> 
+		<type>rotate</type>  
+		<object-name>control pedal pilot right</object-name>  
+		<property>controls/gear/brake-right</property>  
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>-5.4006</x-m>  
+			<y-m>1.2182</y-m> 
+			<z-m>1.6560</z-m> 
+		</center>  
+		<axis>  
+			<x>0.0000</x> 
+			<y>0.1000</y> 
+			<z>0.0000</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>0.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>-1.000</ind> 
+				<dep>-20.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation> 
+	<!--starboard door 1-->  
+	<animation> 
+		<type>translate</type> 
+		<object-name>door right</object-name>  
+		<property>AW_101/doors/starboard_door</property>  
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>0.2973</x-m> 
+			<y-m>8.7614</y-m> 
+			<z-m>2.3725</z-m>  
+		</center>  
+		<axis>  
+			<x>1.5000</x> 
+			<y>0.0000</y>  
+			<z>0.0000</z> 
+		</axis> 
+		<interpolation>  
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>0.0000</dep>  
+			</entry> 
+			<entry> 
+				<ind>1</ind>  
+				<dep>-2.0250</dep> 
+			</entry>  
+		</interpolation>  
+	</animation>  
+	<!--starboard door 2--> 
+	<animation>  
+		<type>translate</type>  
+		<object-name>door right</object-name>  
+		<property>AW_101/doors/starboard_door</property> 
+		<factor>1.000000</factor>  
+		<center>  
+			<x-m>0.2973</x-m> 
+			<y-m>8.6414</y-m> 
+			<z-m>2.3725</z-m>  
+		</center> 
+		<axis>  
+			<x>0.0000</x>  
+			<y>1.5000</y> 
+			<z>0.0000</z> 
+		</axis> 
+		<interpolation> 
+			<entry>  
+				<ind>0.0000</ind>  
+				<dep>0.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1.000</ind>  
+				<dep>0.1200</dep>  
+			</entry> 
+		</interpolation> 
+	</animation>  
+	<!--tail rotor hub-->  
+	<animation> 
+		<type>rotate</type> 
+		<object-name>tail rotor 1</object-name>  
+		<object-name>tail rotor 10</object-name> 
+		<object-name>tail rotor 11</object-name>  
+		<object-name>tail rotor 12</object-name>  
+		<object-name>tail rotor 13</object-name>  
+		<object-name>tail rotor 14</object-name> 
+		<object-name>tail rotor 15</object-name>  
+		<object-name>tail rotor 2</object-name>  
+		<object-name>tail rotor 3</object-name> 
+		<object-name>tail rotor 4</object-name>  
+		<object-name>tail rotor 5</object-name>  
+		<object-name>tail rotor blade 1</object-name>  
+		<object-name>tail rotor blade 2</object-name> 
+		<object-name>tail rotor blade 3</object-name> 
+		<object-name>tail rotor blade 4</object-name>  
+		<property>AW_101/rotors/main/rpm</property> 
+		<factor>4.000000</factor>  
+		<center>  
+			<x-m>14.0900</x-m>  
+			<y-m>-2.7752</y-m> 
+			<z-m>6.0936</z-m>  
+		</center>  
+		<axis>  
+			<x>0.0000</x> 
+			<y>-1.0000</y>  
+			<z>0.0000</z>  
+		</axis>  
+		<interpolation> 
+			<entry>  
+				<ind>0.0000</ind> 
+				<dep>0.0000</dep> 
+			</entry>  
+			<entry> 
+				<ind>1.0000</ind> 
+				<dep>-90.0000</dep> 
+			</entry> 
+		</interpolation> 
+	</animation>  
+	<!--tail rotor blade 1 pitch-->  
+	<animation>  
+		<type>rotate</type> 
+		<object-name>tail rotor blade 1</object-name>  
+		<property>surface-positions/rudder-pos-norm</property>  
+		<factor>1.000000</factor> 
+		<center> 
+			<x-m>14.4950</x-m>  
+			<y-m>-0.7744</y-m>  
+			<z-m>6.0909</z-m> 
+		</center> 
+		<axis>  
+			<x>-0.4051</x> 
+			<y>0.0238</y>  
+			<z>0.0027</z>  
+		</axis>  
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>-15.0000</dep> 
+			</entry> 
+			<entry>  
+				<ind>-1.000</ind>  
+				<dep>15.0000</dep> 
+			</entry>  
+		</interpolation> 
+	</animation> 
+	<!--tail rotor blade 2 pitch-->  
+	<animation>  
+		<type>rotate</type>  
+		<object-name>tail rotor blade 2</object-name>  
+		<property>surface-positions/rudder-pos-norm</property> 
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>14.0873</x-m>  
+			<y-m>-0.7749</y-m>  
+			<z-m>5.6864</z-m> 
+		</center>  
+		<axis> 
+			<x>0.0026</x> 
+			<y>0.0243</y>  
+			<z>0.4072</z> 
+		</axis>  
+		<interpolation>  
+			<entry> 
+				<ind>-1.0000</ind> 
+				<dep>-15.0000</dep>  
+			</entry> 
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>15.0000</dep>  
+			</entry> 
+		</interpolation>  
+	</animation>  
+	<!--tail rotor blade 3 pitch-->  
+	<animation> 
+		<type>rotate</type>  
+		<object-name>tail rotor blade 3</object-name>  
+		<property>surface-positions/rudder-pos-norm</property> 
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>13.6848</x-m> 
+			<y-m>-0.7755</y-m>  
+			<z-m>6.0963</z-m>  
+		</center> 
+		<axis> 
+			<x>0.4051</x> 
+			<y>0.0250</y> 
+			<z>-0.0026</z>  
+		</axis>  
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind> 
+				<dep>-15.0000</dep>  
+			</entry>  
+			<entry> 
+				<ind>1.000</ind> 
+				<dep>15.0000</dep>  
+			</entry>  
+		</interpolation> 
+	</animation> 
+	<!--tail rotor blade 4 pitch-->  
+	<animation> 
+		<type>rotate</type>  
+		<object-name>tail rotor blade 4</object-name>  
+		<property>surface-positions/rudder-pos-norm</property>  
+		<factor>1.000000</factor> 
+		<center>  
+			<x-m>14.0926</x-m>  
+			<y-m>-0.7760</y-m> 
+			<z-m>6.5008</z-m>  
+		</center>  
+		<axis>  
+			<x>-0.0026</x> 
+			<y>0.0255</y> 
+			<z>-0.4071</z>  
+		</axis> 
+		<interpolation>  
+			<entry>  
+				<ind>-1.0000</ind>  
+				<dep>-15.0000</dep> 
+			</entry>  
+			<entry>  
+				<ind>1.000</ind>  
+				<dep>15.0000</dep> 
+			</entry>  
+		</interpolation>  
+	</animation>  
+</PropertyList> 
+  
